@@ -1,11 +1,29 @@
 ### 0.0.1 (RainInFall fix)
-- Workaround Animated bug on Android(When scale too small,
-  it shows as scale equals 1 ).
-  
+  - Workaround Animated bug on Android(When scale too small,
+    it shows as scale equals 1 ).
+
+### 0.20.1
+
+  - Changed menu elevation as per [material design spec](https://material.google.com/what-is-material/elevation-shadows.html) (thanks [@heydabop](https://github.com/heydabop)!)
+
+### 0.20.0
+
+  - Fixes compatibility with React Native 0.27.2 (thanks [@Froelund](https://github.com/Froelund))
+
 ### 0.19.0
 
-- Fixes a performance issue where registering menu options on already
-  rendered and opened menu causes infinite render loop (Closes #5, #9).
+  - Fixes a performance issue where registering menu options on already
+    rendered and opened menu causes infinite render loop (Closes #5, #9).
+
+### 0.18.15
+
+  - Fixes issue where multiple unnamed `Menu` components under one `MenuContext`
+    causes bad positioning.
+
+### 0.18.14
+
+  - Lazily calculate menu position on open -- fixes stale calculation issues.
+
 
 ### 0.18.11
 
