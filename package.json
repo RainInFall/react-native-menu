@@ -1,10 +1,10 @@
 {
-  "name": "react-native-menu",
-  "version": "0.20.2",
-  "description": "A flexible dropdown menu component for Android and iOS that is similar to Android's Spinner.",
+  "name": "raininfall.react-native-menu",
+  "version": "0.0.1",
+  "description": "RainInFall fix something: A flexible dropdown menu component for Android and iOS that is similar to Android's Spinner.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jaysoo/react-native-menu"
+    "url": "https://github.com/RainInFall/react-native-menu"
   },
   "scripts": {
     "install:example": "cd Example && npm install",
@@ -34,7 +34,7 @@
     "ios",
     "android"
   ],
-  "author": "Jack Hsu <jack.hsu@gmail.com> (http://jaysoo.ca/)",
+  "author": ["Jack Hsu <jack.hsu@gmail.com> (http://jaysoo.ca/)", "RainInFall <onlycursedname@gmail.com> (https://github.com/RainInFall)"],
   "license": "ISC",
   "devDependencies": {
     "appium": "^1.4.16",

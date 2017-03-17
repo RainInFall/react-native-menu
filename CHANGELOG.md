@@ -1,3 +1,7 @@
+### 0.0.1 (RainInFall fix)
+- Workaround Animated bug on Android(When scale too small,
+  it shows as scale equals 1 ).
+  
 ### 0.19.0
 
 - Fixes a performance issue where registering menu options on already
